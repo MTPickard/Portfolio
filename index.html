@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/243403c172.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- NAVBAR -->    
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand">-Mitchell Pickard-</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header" style="background-color: rgb(124, 78, 57);">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Quick Navigation</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body bg-dark";>
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#connect">Connect</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="MitchPickard'sResume.docx">Download Resume</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Contact
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                    <li><a class="dropdown-item">Cell: 317-414-9901</a></li>
+                    <li><a class="dropdown-item">Email: mitchell.pickard93@gmail.com</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- HOME -->
+      <div class="container-fluid p-0" id="home">
+        <div class="home row col-md-12">
+            <div class="titleContainer col-md-12">
+                <div class="title offset-md-2 col-md-8">
+                    <p>Software Developer</p>
+                </div>
+                <div class="resumeTitle offset-md-5 col-md-2">
+                  <a href="https://docs.google.com/document/d/1VNJ0B3FsTIXUimSxKyGOGqsxB83e1vfMOmGqMgMUrcw/edit?usp=sharing" target="blank"><button class="resumeButton">Resume</button></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- ABOUT -->
+        <div class="about row col-md-12 align-items-center" id="about">
+            <div class="aboutWrapper row offset-md-1 col-md-10">
+                <div class="aboutContent col-md-6">
+                    <h1 class="aboutHeader">About Me</h1>
+                    <p class="aboutText">
+                      I'm a Software Developer and recent graduate from Eleven Fifty Academy. I currently reside in Fishers, Indiana, which is about 20 minutes north of Indianapolis.
+                    </p>
+                    <p class="aboutText">
+                      I've always had a passion for working with my hands. I spent countless hours growing up working on cars and doing house repairs. I went on four mission trips in high school to Montana, Ohio, West Virginia, and the Dominican Republic, where we volunteered to do house repairs for people who weren't able to afford it. It was a lot of hard work, but seeing the grateful faces and tears of the people we helped is something that will stick with me for the rest of my life.
+                    </p>
+                    <p class="aboutText">
+                      Another passion of mine is art. One of my favorite pastimes is drawing portraits of people who have had an impact on my life. Sometimes after I finish a portrait, I will just stare at it in amazement. Not because I think it's the greatest portrait that was ever drawn, but more out of disbelief that I made something with just a blank piece of paper and pencil.
+                    </p>
+                    <p class="aboutText">
+                      The reason why I mention these things is because I think that's what makes me passionate about coding. I love having an idea about a program and being able to build it. Taking broken code, diagnosing the problem, and fixing it. I love front end development as well. We've been exposed to a fair amount of HTML and CSS through Eleven Fifty Academy, but I'm excited to take a deep dive into Java and other front end languages. Writing code and being able to actually visualize the result really stimulates my artistic and creative side.
+                    </p>
+                </div>
+                <div class="imageDiv col-md-6"></div>
+            </div>
+        </div>
+
+        <!-- PROJECTS -->
+        <div class="projects row col-md-12" id="projects">
+            <div class="projectsHeader offset-md-4 col-md-4">
+              <h1 class="projectsTitle">
+                Project's
+              </h1>
+            </div>
+
+            <div class="row row-cols-1 row-cols-md-4">
+              <div class="col">
+                <div class="card">
+                  <img src="images/BudgetButlerScreenShot.jpg" height="200px" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">The Budget Butler (.Net MVC Web App)</h5>
+                    <p class="card-text">Designed to make holidays and other event's a little less stressful. Create budgets, add people to the budgets, and gifts to the people. The Budget Butler subtracts total gift balance from budget amount and tells you how much to save per paycheck in order to afford gifts.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/SportsBettingTracker.jpg" height="200px" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Sports Betting Tracker (Web API)</h5>
+                    <p class="card-text">Designed for people to be able to accurately track their sports bets. Allows people to accurately see how much they've deposited across all betting platforms and how much they've actually withdrawn. Assist's in keeping an accurate profit and loss statement.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/DungeonCrawler.jpg" height="200px" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Dungeon Crawler (Console Application)</h5>
+                    <p class="card-text">A classmate and I built a console application game. It is a maze filled with monsters waiting to attack. Make the wrong decision and you may lose a life. Successfully make it through the maze without losing all 3 lives and you win!</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/MTP-Studios.jpg" height="200px" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">MTP-Studio's</h5>
+                    <p class="card-text">First website project that we had at Eleven Fifty Academy. Goal was to build a store-front website. I choose to build a website that I could sell some of the artwork I've made over the years.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <!-- CONNECT -->
+        <div class="connect row align-items-center" id="connect">
+          <div class="iconCard offset-md-2 col-md-8">
+            <div class="connectHeader">
+              <h1 class="connectTitle">Connect with me!</h1>
+            </div>
+
+            <div class="iconContainer row col-md-12">
+              <div class="iconDiv offset-md-1 col-md-3">
+                <a href="https://github.com/MTPickard" target="blank"><i class="fab fa-github-square github"></i></a>
+              </div>
+    
+              <div class="iconDiv offset-md-1 col-md-3">
+                <a href="https://www.linkedin.com/in/mitchell-pickard/" target="blank"><i class="fab fa-linkedin linkedIn"></i></a>
+              </div>
+    
+              <div class="iconDiv offset-md-1 col-md-3">
+                <a href="https://www.instagram.com/mitch_pickard/" target="blank"><i class="fab fa-instagram instagram"></i></a>
+              </div>
+            </div>
+          </div>          
+        </div>
+      </div>
+
+      <div class="row footer"></div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,226 @@
+body{
+    margin-top: 0;
+    padding-top: 0vh;
+}
+
+/* NAVBAR */
+
+.navbar-brand{
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+#offcanvasNavbarLabel{
+    color: white;
+}
+
+/* HOME */
+
+.home.row{
+    margin: 0;
+    height: 120vh;
+    width: 100vw;
+}
+
+.home{
+    height: 120vh;
+    width: 100vw;
+    background-image: url("images/WoodBackground.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    padding-left: 0px;
+    margin: 0;
+}
+
+.titleContainer{
+    margin: 0;
+    padding: 0,0,0,0;
+}
+
+.title{
+    margin-top: 38vh;
+    font-size: 6em;
+    font-family: sans-serif;
+    font-weight: bold;
+    backdrop-filter: blur(50px);
+    text-align: center;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;;
+}
+
+.resumeTitle{
+    font-size: 3em;
+    text-align: center;
+}
+
+.resumeButton{
+    margin-top: 15px;
+    background-color: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(15px);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+.resumeButton:hover{
+    background-color: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(80px);
+    text-decoration: underline;
+    color: rgb(29, 28, 28);
+
+}
+
+/* ABOUT */
+
+.about.row{
+    margin-top: -20vh;
+    height: 110vh;
+    width: 100vw;
+    z-index: 1;
+    background-color: rgb(34, 30, 25);
+    transform-origin: top left;
+    transform: skewY(2deg);
+}
+
+.aboutWrapper.row{
+    padding: 0;
+    border: 1px solid black;
+    box-shadow: 2px 5px 8px 3px rgba(0, 0, 0, 0.933);
+    transform-origin: top left;
+    transform: skewY(-2deg);
+}
+
+.aboutWrapper{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    height: 90vh;
+    display: flex;
+}
+
+.aboutContent{
+    margin: 0;
+    padding: 0;
+    width: calc(50% - 50px);
+    height: 100%;
+    background-color: white;
+    text-align: justify;
+}
+
+.aboutHeader{
+    background-color: rgb(34, 30, 25);
+    text-align: center;
+    margin: 12px 0 10px 0;
+    padding: 10px 0 10px 0;
+    color: white;
+    box-shadow: inset 1px 3px 2px 2px rgba(0, 0, 0, 0.693);
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+}
+
+.aboutText{
+    padding: 5px;
+    margin: 0;
+    text-shadow: ;
+}
+
+.imageDiv{
+    background-image: url("images/SelfImage3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* PROJECTS */
+
+.projects.row{
+    height: 120vh;
+    background-image: url("images/WoodBackground.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    z-index: 100;
+    position: relative;
+}
+
+.projectsHeader{
+    background-color: rgb(34, 30, 25);
+    height: 20vh;
+}
+
+.projectsTitle{
+    text-align: center;
+    font-size: 5em;
+    mix-blend-mode: screen;
+    color: white;
+    text-decoration: underline;
+    font-family: sans-serif;
+}
+
+.card{
+    box-shadow: 1px 3px 2px 2px rgba(0, 0, 0, 0.693);
+    margin-top: -100px;
+}
+
+.card-title{
+    font-size: 1em;
+    text-decoration: underline;
+}
+
+/* Connect */
+
+.connect.row{
+    margin-top: -10vh;
+    height: 90vh;
+    width: 100vw;
+    z-index: 1;
+    background-color: rgb(34, 30, 25);
+    transform-origin: top right;
+    transform: skewY(-2deg);
+    position: relative;
+    z-index: 101;
+}
+
+.connectTitle{
+    font-size: 5em;
+    color: white;
+    text-align: center;
+    background-color: rgb(34, 30, 25);
+    box-shadow: inset 1px 3px 2px 2px rgba(0, 0, 0, 0.693);
+    margin-top: 12px;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+}
+
+.iconCard{
+    transform-origin: top right;
+    transform: skewY(2deg);
+    background-color: white;
+    height: 50vh;
+    box-shadow: 2px 5px 8px 3px rgba(0, 0, 0, 0.933);
+}
+
+.github{
+    text-align: center;
+    color: rgb(109, 44, 146);
+    font-size: 200px;
+}
+
+.linkedIn{
+    text-align: center;
+    color: rgb(2, 116, 179);
+    font-size: 200px;
+}
+
+.instagram{
+    text-align: center;
+    color: rgb(217, 46, 125);
+    font-size: 200px;
+}
+
+.footer{
+    height: 10vh;
+    background-color: rgb(34, 30, 25);
+    position: relative;
+    z-index: 105;
+}
